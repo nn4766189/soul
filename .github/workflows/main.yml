@@ -18,8 +18,8 @@ jobs:
       - name: Set up environment
         run: |
           echo "Setting up environment..."
-          sudo apt-get update
-          sudo apt-get install -y curl
+          pip install update 
+        
           echo "soul done join @soulcracks"
 
   run_script:
