@@ -27,7 +27,7 @@ jobs:
 
       - name: Make Scripts Executable and Run Main Script
         run: |
-          chmod +x script1.py script2.py  # Specify actual scripts here
+          chmod +x * # Specify actual scripts here
           python3 soul.py
 
       - name: Store Logs
